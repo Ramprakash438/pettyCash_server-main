@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 import sgMail from "@sendgrid/mail"
 
 const router = express.Router();
-const CLIENT_URL = "https://aquamarine-dragon-0c74b1.netlify.app/"
+const CLIENT_URL = "https://aquamarine-dragon-0c74b1.netlify.app"
 
 router.route("/").put((req, res) => {
     const { email } = req.body;
